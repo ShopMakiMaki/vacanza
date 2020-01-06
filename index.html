@@ -16,15 +16,14 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '2772949849422511');
   fbq('track', 'PageView');
-  fbq('track', 'CompleteRegistration', {
-    value: 1,
-    currency: 'USD',
-  });
 </script>
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=2772949849422511&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<script>
+  fbq('track', 'CompleteRegistration');
+</script>
 </head>
 <body> 
 <br> 
